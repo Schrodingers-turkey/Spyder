@@ -65,5 +65,5 @@ def Parsing_data(html):
 for i in range(1,200):
     Parsing_data(request_HTML(i))
 
-    time.sleep(random.randint(0,6))
+    time.sleep(random.randint(1))
 print('已全部保存到数据库中 请查看...')
